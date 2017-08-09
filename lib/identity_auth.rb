@@ -1,5 +1,3 @@
 require "identity_auth/version"
-
-module IdentityAuth
-  # Your code goes here...
-end
+require "identity_auth/web_token_manager"
+require "identity_auth/exceptions"
